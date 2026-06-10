@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Roboto;scroll-behavior: smooth;
+}
+
+header{
+    background-color: #000000;
+    padding: 12px 100px;
+    display: flex;
+    gap: 168px;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+header ul a{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 0;
+}
+header ul a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+
+/* ****************************
+
+index.html styles
+
+S T A R T 
+
+**************************** */
+.index{
+    padding: 0 156px 0 110px;
+}
+.index h2{
+    font-size: 24px;
+    margin-top: 50px;
+}
+.viniliParent{
+    display: flex;
+    justify-content: space-between;
+}
+.vinili{
+    width: 300px;
+    margin: 51px 0 22px 0;
+}
+.vinili:hover article{
+    box-shadow: 0 0 5px #000000;
+}
+.vinili:hover a{
+    text-decoration: underline;
+}
+
+.vinili article{
+    width: 100%;
+    height: 244px;
+    border: 1px solid #000000;
+    position: relative;
+    padding-top: 145px;
+    padding-left: 12px;
+    margin-bottom: 10px;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    background-position-y: 57px;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    top:-3px;
+    right: 0;
+    background-image: url(../img/like\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.like:hover{
+    background-image: url(../img/like\ 2.png);
+}
+.like img{
+    width: 100%;
+}
+.vinili h3{
+    margin-bottom: 13px;
+    font-size: 18px;
+}
+.vinili p{
+    font-size: 14px;
+}
+.vinili a{
+    font-size: 12px;
+    color: #000000;
+}
+
+aside{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    top:120px;
+    right:0;
+}
+.social{
+    width: 50px;
+    height: 50px; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fb{ 
+    background-image: url(../img/fb\ 1.png);
+}
+.insta{
+    background-image: url(../img/instagram\ 1.png);
+}
+.fb:hover{
+    background-image: url(../img/facebook.png);
+}
+.insta:hover{
+    background-image: url(../img/instagram.png);
+}
+footer{
+    background-color: #000000;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 17px;
+}
+footer a{
+    color: #ffffff;
+}
+footer p{
+    color: #ffffff;
+}
+footer div{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+footer div img{
+    width: 100%;
+}
+footer  nav{
+    margin: 26px 0 50px 0;
+}
+
+/* +++++++++++++++++++++++++
+
+playlist.html styles
+
+*S* *T* *A* *R* *T*
+
++++++++++++++++++++++++++ */
+
+
+.playlist{
+    padding: 51px 88px 143px 100px;
+}
+
+.playlist section{
+    padding: 18px 36px 21px 29px;
+
+}
+.playlist h2{
+    font-size: 24px;
+    margin-bottom: 51px;
+}
+.playlist a{
+    color: #000000;
+}
+.playlist li{
+    margin-bottom: 8px;
+}
+.sectionParent{
+    display: flex;
+    gap: 157px;
+}
+.playlist section:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+}
+.soundBox{
+    width: 287px;
+    height: 65px;
+    margin: 46px auto 108px auto;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+}
+.playlist h3{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+}
